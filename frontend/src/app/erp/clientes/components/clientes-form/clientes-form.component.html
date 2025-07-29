@@ -1,0 +1,32 @@
+<mat-card class="card">
+    <h2 mat-dialog-title>Cliente</h2>
+
+    <mat-dialog-content [formGroup]="form" class="form-container">
+        <mat-form-field>
+            <mat-label>Nome</mat-label>
+            <input matInput formControlName="nome" />
+        </mat-form-field>
+
+        <mat-form-field>
+            <mat-label>CPF ou CNPJ</mat-label>
+            <input matInput formControlName="cpfCnpj" />
+        </mat-form-field>
+
+        <mat-form-field>
+            <mat-label>Telefone</mat-label>
+            <input matInput formControlName="telefone" />
+        </mat-form-field>
+
+        <mat-form-field>
+            <mat-label>Email</mat-label>
+            <input matInput formControlName="email" />
+        </mat-form-field>
+
+        <app-endereco-form [form]="form" [estados]="estados"></app-endereco-form>
+    </mat-dialog-content>
+
+    <mat-dialog-actions align="end">
+        <button mat-button (click)="close()">Cancelar</button>
+        <button mat-raised-button color="primary" (click)="save()" [disabled]="!form.valid">Salvar</button>
+    </mat-dialog-actions>
+</mat-card>
