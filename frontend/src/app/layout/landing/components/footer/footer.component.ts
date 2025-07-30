@@ -9,7 +9,7 @@ import { LogoComponent } from '../logo/logo.component';
         <footer>
             <app-logo (click)="router.navigate([''])"></app-logo>
             <div class="footer-content">
-                <p>© 2023 Technofrio. Todos os direitos reservados.</p>
+                <p>© 2023 Landing. Todos os direitos reservados.</p>
                 <div class="footer-navigation">
                     <nav>
                         <a (click)="router.navigate(['contato'])" class="cursor-pointer">Contatos</a>
@@ -17,12 +17,12 @@ import { LogoComponent } from '../logo/logo.component';
                     </nav>
                     <div class="social-media">
                         <div class="cursor-pointer">
-                            <a href="https://www.instagram.com/technofriouberaba?igsh=ODczcHNyajdhc295" target="_blank" rel="noopener noreferrer"
+                            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"
                                 ><span><i class="pi pi-instagram"></i> Instagram</span></a
                             >
                         </div>
                         <div class="cursor-pointer">
-                            <a href="https://www.facebook.com/technofriouberaba/" target="_blank" rel="noopener noreferrer"
+                            <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"
                                 ><span><i class="pi pi-facebook"></i> Facebook</span></a
                             >
                         </div>

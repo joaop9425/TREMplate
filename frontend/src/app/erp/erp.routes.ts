@@ -8,7 +8,7 @@ import { ProdutosComponent } from './produtos/produtos.component';
 import { ServicosComponent } from './servicos/servicos.component';
 import { VendasComponent } from './vendas/vendas.component';
 
-const title = 'Technofrio | Sistema';
+const title = 'Sistema';
 
 export default [
     {

@@ -6,7 +6,7 @@ import { Title } from '@angular/platform-browser';
 })
 export class TitleService {
     constructor(private title: Title) {
-        this.set('Technofrio');
+        this.set('Landing');
     }
 
     reset() {

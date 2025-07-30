@@ -17,7 +17,7 @@ import { LogoComponent } from '../logo/logo.component';
                 <!-- Logo e Nome -->
                 <a class="flex items-center cursor-pointer" (click)="router.navigate([''])">
                     <app-logo></app-logo>
-                    <span class="text-surface-900 dark:text-surface-0 font-medium text-2xl leading-normal mr-20"> Technofrio </span>
+                    <span class="text-surface-900 dark:text-surface-0 font-medium text-2xl leading-normal mr-20"> Landing </span>
                 </a>
 
                 <!-- Botão Hamburguer (Mobile) -->
@@ -49,7 +49,7 @@ import { LogoComponent } from '../logo/logo.component';
                     </li>
                     <li>
                         <a (click)="router.navigate(['/sobre'])" pRipple class="menu-item px-0 py-4 text-surface-900 dark:text-surface-0 font-medium text-xl cursor-pointer">
-                            <span>Sobre a Technofrio</span>
+                            <span>Sobre a Landing</span>
                         </a>
                     </li>
                     <li>
@@ -85,7 +85,7 @@ import { LogoComponent } from '../logo/logo.component';
                     </li>
                     <li>
                         <a (click)="router.navigate(['/sobre']); toggleMenu()" pRipple class="block text-surface-900 dark:text-surface-0 font-medium text-xl cursor-pointer">
-                            <span>Sobre a Technofrio</span>
+                            <span>Sobre a Landing</span>
                         </a>
                     </li>
                     <li>

@@ -35,7 +35,7 @@ import { LayoutService } from '../service/layout.service';
                         />
                     </g>
                 </svg> -->
-                    <span>Technofrio</span>
+                    <span>Landing</span>
                 </a>
             </div>
 

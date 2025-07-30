@@ -11,11 +11,11 @@ services:
     env_file:
     - .docker.env
     networks:
-    - technofrio
+    - network_test
 
 volumes:
   data:
 
 networks:
-  technofrio:
+  network_test:
     driver: bridge

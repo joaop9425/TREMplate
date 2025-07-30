@@ -9,7 +9,7 @@ import { TitleService } from './layout/service/title.service';
     template: `<router-outlet />`
 })
 export class AppComponent {
-    titlePage = 'Technofrio | Soluções em ar condicionado';
+    titlePage = 'Landing';
     constructor(private title: TitleService) {
         this.title.set(this.titlePage);
     }

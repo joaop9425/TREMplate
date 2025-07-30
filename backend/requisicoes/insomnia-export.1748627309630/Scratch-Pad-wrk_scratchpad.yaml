@@ -2437,7 +2437,7 @@ collection:
             send: true
             store: true
           rebuildPath: true
-  - name: Technofrio
+  - name: Teste
     meta:
       id: fld_06b7659a9f784809a35ab4324356bebb
       created: 1744292571680
